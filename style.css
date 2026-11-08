@@ -25,11 +25,18 @@ header {
   text-align: center;
   margin: auto 2em;
 }
-
+/* 
+  • serif: 바탕체 계열 (명조체, 삐침이 있는 글꼴)
+  • sans-serif: 고딕체 계열 (삐침이 없는 깔끔한 글꼴)
+  • monospace: 고정폭 글꼴 (글자 가로 간격이 동일,주로 코드 작성용)
+  • cursive: 필기체 계열
+  • fantasy: 장식용 판타지 계열
+  • system-ui: 운영체제의 기본 사용자 인터페이스(UI) 서체
+*/
 header h1 {
   margin: 1.2em auto;
-  font-family: 'Courgette', cursive;
-  text-transform: uppercase;
+  font-family: 'Courgette';
+  /* text-transform: uppercase; */
   font-size: 3em;
   letter-spacing: 0.6em;
   font-weight: 700;
